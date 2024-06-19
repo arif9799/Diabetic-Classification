@@ -1,5 +1,23 @@
-# Diabetic-Classification
-Classifying a patient as Diabetic or Non-Diabetic based on Anthropometric Data.
+<p align="center">
+  
+  ___
+</p>
+<h3 align="center">
+  
+  [Diabetic Classification, _Supervised ML_](https://github.com/arif9799/Diabetic-Classification)
+</h3>
+<br>
+
+<p align="center">
+  <img src="https://github.com/arif9799/arif9799/blob/main/gifs/DiabeticClassification.gif" width="250" alt="Description">
+</p>
+<br>
+
+_InsuLens: Focusing Clarity in Diabetic Classification_ 
+
+Cleaned and preprocessed anthropometric datasets with a whopping 1.8 million observations collected from 9 different states in India. Analyzed and performed hyperparameter tuning with 'Grid Search Cross Validation' to derive optimal Parameters for training the MultiLayer Perceptron Classifier to classify the Diabetics. Upsampled the minority class from the imbalanced dataset using SMOTE technique that drastically increased the accuracy of predicting diabetic class from 13% to an impressive 71.4%.
+<br>
+<br>
 
 In 2019, diabetes caused an estimated 1.5 million deaths in the world with diabetes being the 9th leading cause of death. If identified in early stages, Diabetes is treatable with medication which is expensive. We want to identify a non-invasive and faster diagnosis of diabetes. Hence, this project aims to find out if anthropometric data can be used to identify diabetes in its early stages. We used Multi-Layer Perceptron as our model and Grid Search Cross Validation to help with hyperparameter tuning to get the best precision and recall for the multi-layer perceptron. Our classifier was able to identify non-diabetic patients with 96% accuracy.
 
